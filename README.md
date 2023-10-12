@@ -87,4 +87,5 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 
 ## Problemas e Sugestões
 
-Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, por favor, abra uma issue neste repositório.
+Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, por favor, abra uma issue neste repositório
+
