@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clone da Versão Web do Spotify
 
-## Getting Started
+Este é um projeto de clonagem da versão web do Spotify, desenvolvido com Next.js 13 e estilizado com Tailwind CSS. O objetivo deste projeto é criar uma réplica da interface web do Spotify.
 
-First, run the development server:
+## Visão Geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Neste projeto, você encontrará uma réplica da interface web do Spotify, incluindo funcionalidades como:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Exibição de playlists, álbuns e músicas.
+- Reprodutor de músicas com controles de reprodução.
+- Efeito de gradiante verde ao passar o mouse pelos albums
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Melhorias Futuras (To-Do)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [  ] Adicionar a fonte real do Spotify para corresponder à identidade visual.
+- [ ] Melhorar espaçamentos e estilos dos cards de playlists, álbuns e músicas.
+- [ ] Melhorar a responsividade em dispositivos móveis.
+- [  ] Reproduzir áudio e mostrar o contador
 
-## Learn More
+## Tecnologias Utilizadas
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js 13](https://nextjs.org/): Framework de React para renderização do lado do servidor.
+- [Tailwind CSS](https://tailwindcss.com/): Biblioteca de estilos utilitários.
+- [ESLint](https://eslint.org/): Linter para JavaScript/TypeScript.
+- [Prettier](https://prettier.io/): Formatador de código.
+- [Eslint Config @snarloff](https://www.npmjs.com/package/@snarloff/eslint-config): Pacote de configuração ESLint personalizado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configuração do ESLint e Prettier
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para manter a consistência e a qualidade do código, este projeto utiliza a configuração personalizada do ESLint disponível em [@snarloff/eslint-config](https://www.npmjs.com/package/@snarloff/eslint-config). Para configurar o ESLint e o Prettier no seu projeto, siga os passos abaixo:
 
-## Deploy on Vercel
+1. Instale o pacote do ESLint e Prettier:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```shell
+   npm install eslint prettier --save-dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Instale a configuração personalizada:
+
+   ```shell
+   npm install @snarloff/eslint-config --save-dev
+   ```
+
+3. Crie um arquivo `.eslintrc.js` na raiz do seu projeto e adicione o seguinte conteúdo:
+
+   ```javascript
+   module.exports = {
+     extends: ['@snarloff'],
+   };
+   ```
+
+Agora você tem a configuração do ESLint e Prettier configurada de acordo com o padrão de código deste projeto.
+
+## Execução do Projeto
+
+Siga os passos abaixo para executar a aplicação:
+
+1. Clone este repositório:
+
+   ```shell
+   git clone https://github.com/Snarloff/spotify-clone.git
+   ```
+
+2. Navegue até o diretório do projeto:
+
+   ```shell
+   cd nome-do-repositorio
+   ```
+
+3. Instale as dependências:
+
+   ```shell
+   npm install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```shell
+   npm run dev
+   ```
+
+5. Acesse a aplicação em seu navegador em `http://localhost:3000`.
+
+## Contribuições
+
+Contribuições são bem-vindas! Se você deseja contribuir para este projeto, siga as diretrizes de contribuição e envie um pull request.
+
+## Problemas e Sugestões
+
+Se você encontrar algum problema ou tiver sugestões para melhorar este projeto, por favor, abra uma issue neste repositório.
