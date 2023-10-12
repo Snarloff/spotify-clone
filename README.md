@@ -12,10 +12,10 @@ Neste projeto, você encontrará uma réplica da interface web do Spotify, inclu
 
 ### Melhorias Futuras (To-Do)
 
-- [  ] Adicionar a fonte real do Spotify para corresponder à identidade visual.
+- [ ] Adicionar a fonte real do Spotify para corresponder à identidade visual.
 - [ ] Melhorar espaçamentos e estilos dos cards de playlists, álbuns e músicas.
 - [ ] Melhorar a responsividade em dispositivos móveis.
-- [  ] Reproduzir áudio e mostrar o contador
+- [ ] Reproduzir áudio e mostrar o contador
 
 ## Tecnologias Utilizadas
 
