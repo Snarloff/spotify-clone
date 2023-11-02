@@ -1,5 +1,6 @@
 # Clone da Versão Web do Spotify
 
+![TechThrowBack (2)](https://github.com/Snarloff/spotify-clone/assets/46792575/7e8a3c98-627e-49ed-9a47-887c00c56457)
 Este é um projeto de clonagem da versão web do Spotify, desenvolvido com Next.js 13 e estilizado com Tailwind CSS. O objetivo deste projeto é criar uma réplica da interface web do Spotify.
 
 ## Visão Geral
